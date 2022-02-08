@@ -1,0 +1,575 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgba(250,250,252,1);
+background: -moz-linear-gradient(top, rgba(250,250,252,1) 0%, rgba(233,236,244,1) 48%, rgba(218,222,235,1) 82%, rgba(215,219,234,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,250,252,1)), color-stop(48%, rgba(233,236,244,1)), color-stop(82%, rgba(218,222,235,1)), color-stop(100%, rgba(215,219,234,1)));
+background: -webkit-linear-gradient(top, rgba(250,250,252,1) 0%, rgba(233,236,244,1) 48%, rgba(218,222,235,1) 82%, rgba(215,219,234,1) 100%);
+background: -o-linear-gradient(top, rgba(250,250,252,1) 0%, rgba(233,236,244,1) 48%, rgba(218,222,235,1) 82%, rgba(215,219,234,1) 100%);
+background: -ms-linear-gradient(top, rgba(250,250,252,1) 0%, rgba(233,236,244,1) 48%, rgba(218,222,235,1) 82%, rgba(215,219,234,1) 100%);
+background: linear-gradient(to bottom, rgba(250,250,252,1) 0%, rgba(233,236,244,1) 48%, rgba(218,222,235,1) 82%, rgba(215,219,234,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafc', endColorstr='#d7dbea', GradientType=0 );
+width: 100%;
+	
+}
+#Cabecera_login{
+	height: 82px;
+	background-color: #3b5998;
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+	position: relative;
+	margin-top: -0.8%;
+	z-index: 999999;
+	width: 100%;
+}
+#letras_f{
+	width: 180px;
+	height: 180px;
+	margin-top: -30%;
+}
+#imagen_letras{
+	width: 150px;
+	height: 40px;
+	margin-left: 17%;
+	margin-top: 0.8%;
+	position: relative;
+}
+#formulario_login{
+	margin-left: 55%;
+	width: 40%;
+	margin-top: -2%;
+	position: relative;
+
+	height: 40px;
+	margin-top: -35px;
+}
+.introducir_correo{
+	border:1px solid black;
+	border-color: #1a1a1a;
+	padding-bottom: 4px;
+	margin-bottom: 50%;
+}
+.introducir_pass{
+	border:1px solid black;
+	border-color: #1a1a1a;
+	padding-bottom: 4px;
+	margin-left: 10%;
+	margin-bottom: 50%;
+}
+.pass_label{
+	margin-left: 10%;
+}
+.boton_login{
+	background-color: #4267b2;
+	border-color: #29487d;
+	border:1px solid #29487d;
+	text-decoration: none;
+	border-radius: 2px;
+	font-weight: bold;
+	cursor: pointer;
+	color: white;
+	padding: 2px 6px;
+	font-size: 12px;
+	text-shadow: none;
+	margin-left: 140%;
+	height: 22px;
+	margin-bottom: 150%;
+
+}
+.boton_login:hover{
+	background-color: #3B5998;
+}
+.recuperar_cuenta{
+	position: relative;
+	cursor: pointer;
+	margin-top: -1.5%;
+	margin-left: -80%;
+	margin-bottom: 10%;
+	width: 230px;
+
+}
+.recuperar_cuenta>a{
+	color:#9cb4d8;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "arial";
+	margin-bottom: 10%;
+}
+.recuperar_cuenta:hover{
+	text-decoration: underline;
+}
+label{
+	font-size: 12px;
+	color: white;
+	font-family: "arial";
+}
+#registro_cuenta{
+	
+	right: 19%;
+	width: 40%;
+	height: auto;
+	position: relative;
+	margin-top: 23px;
+	margin-left: 76%;
+
+	
+}
+.texto_crear_cuenta{
+	font-family: "arial";
+	font-size: 35px;
+	font-weight: bold;
+}
+.cuenta_gratis{
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: "arial";
+}
+.formulario_registro{
+	margin-top: 13px;
+	
+}
+.inputt_nombre{
+	border-radius: 5px;
+	border-color: #bdc7d8;
+	border:1px solid #bdc7d8;
+	font-size: 18px;
+	width: 195px;
+	height: 35px;
+	text-indent: 8px;
+	margin-top: 10px;
+}
+.inputt_apellido{
+	border-radius: 5px;
+	border-color: #bdc7d8;
+	border:1px solid #bdc7d8;
+	font-size: 18px;
+	width: 195px;
+	height: 35px;
+	text-indent: 8px;
+	margin-left: 2%;
+}
+.inputt_correo{
+	width: 405px;
+	border-radius: 5px;
+	border-color: #bcd7d8;
+	border:1px solid #bdc7d8;
+	font-size: 18px;
+	height: 35px;
+	margin-top: 10px;
+	text-indent: 8px;
+}
+.inputt_pass{
+	width: 405px;
+	border-radius: 5px;
+	border-color: #bcd7d8;
+	border:1px solid #bdc7d8;
+	font-size: 18px;
+	height: 35px;
+	margin-top: 10px;
+	text-indent: 8px;
+}
+.texto_fecha{
+	margin-top: 25px;
+	font-size: 18px;
+	font-family: "arial";
+
+}
+.fecha_dia{
+	font-size: 13px;
+	height: 30px;
+	border-color: 1PX solid #bdc7d8;
+	margin-top: 5px;
+	width: 54px;
+}
+.fecha_mes{
+	font-size: 13px;
+	height: 30px;
+	border-color: 1PX solid #bdc7d8;
+	margin-top: 5px;
+	margin-left: -1.2%;
+	width: 54px;
+}
+
+
+.fecha_año{
+	font-size: 13px;
+	height: 30px;
+	border-color: 1PX solid #bdc7d8;
+	margin-top: 5px;
+	margin-left: -1.2%;
+	width: 54px;
+}
+#sexo_mujer{
+	margin-top: 10px;
+}
+.sexo_mujer2{
+	font-size: 18px;
+	font-family: "arial";
+	margin-top:-7%;
+	margin-left: 5%;
+	margin-top: -19px;
+	width: 50px;
+}
+#sexo_hombre{
+	margin-left: 5%;
+}
+.formulario_registro{
+	font-size: 18px;
+	font-family: "arial";
+}
+.boton_registro{
+	background-color: #70a74e;
+	font-weight: bold;
+	color:white;
+	background: linear-gradient(#67ae55, #578843 50%);
+	border-radius: 5px;
+	font-size: 18px;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border:1px solid;
+	width: 190px;
+	height: 40px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.boton_registro:hover{
+	background-image: linear-gradient(#67ae55, #578843);
+}
+.texto_nacimiento{
+	color:#365899;
+	text-decoration: none;
+	font-size: 11px;
+	font-family: "arial";
+	position: relative;
+
+
+}
+.texto_nacimiento:hover{
+	text-decoration: underline;
+}
+#texto_nacimiento_fecha{
+	width: 170px;
+	margin-left: 40%;
+	margin-top: -8%;
+	position: relative;
+}
+#terminos_y_condiciones{
+	font-size: 11px;
+	width: 316px;
+	margin-top: 13px;
+	color: #777777;
+}
+.condiciones{
+	color: #365899;
+	text-decoration: none;
+	cursor: pointer;
+}
+.condiciones:hover{
+	text-decoration: underline;
+}
+
+.p_datos{
+	color: #365899;
+	text-decoration: none;
+	cursor: pointer;
+}
+.p_datos:hover{
+	text-decoration: underline;
+}
+.p_cookies{
+	color: #365899;
+	text-decoration: none;
+	cursor: pointer;
+}
+.p_cookies:hover{
+	text-decoration: underline;
+}
+#contenedor_personapublica{
+	margin-top: 18px;
+	border-top:1px solid #dddfe2;
+	width: 406px;
+}
+.pagina_personajepublico{
+	font-size: 13px;
+	color:#666666;
+	font-weight: bold;
+	font-family: "arial";
+	margin-top: 13px;
+	text-decoration: none;
+	width: 270px;
+}
+.crea_pagina{
+	text-decoration: none;
+	color: #365899;
+}
+.crea_pagina:hover{
+	text-decoration: underline;
+}
+#idiomas{
+	margin-top: 3%;
+	background-color: white;
+	height: 180px;
+	width: 100%;
+/*	padding: 10%;*/
+	position: absolute;
+	display: block;
+	z-index: 9999;
+}
+.estilo_idioma_e{
+	margin-left: 18%;
+	font-size: 12px;
+	text-decoration: none;
+	margin-top: 20px;
+	font-family:"arial";
+	color:#365899;
+	cursor: pointer;
+
+}
+.estilo_idioma_e:hover{
+	text-decoration:underline;
+
+}
+.estilo_idioma_en{
+	margin-left:.5%;
+	font-size: 12px;
+	text-decoration: none;
+	color:#365899;
+	font-family:"arial";
+	cursor: pointer;
+
+}
+.estilo_idioma_en:hover{
+	text-decoration:underline;
+
+}
+.estilo_idioma_p{
+	margin-left: .5%;
+	font-size: 12px;
+	text-decoration: none;
+	color:#365899;
+	font-family:"arial";
+	cursor: pointer;
+
+}
+.estilo_idioma_p:hover{
+	text-decoration:underline;
+
+}
+.estilo_idioma_f{
+	margin-left: .5%;
+	font-size:12px;
+	text-decoration: none;
+	color:#365899;
+	font-family:"arial";
+	cursor: pointer;
+
+}
+.estilo_idioma_f:hover{
+	text-decoration:underline;
+
+}
+.estilo_idioma_i{
+	margin-left: .5%;
+	font-size: 12px;
+	text-decoration: none;
+	color:#365899;
+	font-family:"arial";
+	cursor: pointer;
+
+}
+.estilo_idioma_i:hover{
+	text-decoration: underline;
+}
+.estilo_idioma_d{
+	margin-left: .5%;
+	font-size: 12px;
+	text-decoration: none;
+	color:#365899;
+	font-family:"arial";
+	cursor: pointer;
+
+}
+.estilo_idioma_d:hover{
+	text-decoration:underline;
+
+}
+.estilo_idioma_a{
+	margin-left: .5%;
+	font-size: 12px;
+	text-decoration: none;
+	color:#365899;
+	font-family:"arial";
+	cursor: pointer;
+}
+.estilo_idioma_a:hover{
+	text-decoration:underline;
+
+}
+.estilo_idioma_c{
+	margin-left: .5%;
+	font-size: 12px;
+	text-decoration: none;
+	color:#365899;
+	font-family:"arial";
+	cursor: pointer;
+}
+.estilo_idioma_c:hover{
+	text-decoration:underline;
+
+}
+.estilo_idioma_n{
+	margin-left: .5%;
+	font-size: 12px;
+	text-decoration: none;
+	color: #365899;
+	font-family: "arial";
+	cursor: pointer;
+
+}
+.estilo_idioma_n:hover{
+	text-decoration:underline;
+
+}
+.estilo_idioma_co{
+	margin-left: .5%;
+	font-size: 12px;
+	text-decoration: none;
+	color:#365899;
+	font-family: "arial";
+	cursor: pointer;
+
+}
+.estilo_idioma_co:hover{
+	text-decoration:underline;
+
+}
+
+.input_boton{
+	background-color: #F5F6F7;
+	border:1px solid #CCD0D5;
+	margin-left: 1%;
+	margin-bottom: -10px;
+	width: 20px;
+}
+#caracteristicas{
+	width: 63%;
+	margin-top: 10px;
+	border-top: 1px solid #DDDFE2;
+	margin-left: 18%;
+	color:#365899;
+
+}
+.tabla_caracteristicas{
+	margin-top: 10px;
+	
+}
+.opciones{
+
+	margin-left: 1.9%;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "arial";
+	color:#365899;
+}
+.opciones:hover{
+	text-decoration: underline;
+}
+.opcion{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "arial";
+	color:#365899;	
+}
+.opcion:hover{
+	text-decoration: underline;
+}
+.opciones_1{
+	margin-left: 1.7%;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "arial";
+	color:#365899;	
+}
+.opciones_1:hover{
+	text-decoration: underline;
+}
+#marca_registrada{
+	color: #737373;
+	width: 150px;
+	margin-left: 18%;
+	margin-top: 15px;
+	font-size: 11px;
+	font-family: "arial";
+}
+#derecha{
+	margin-top: -34%;
+	width: 29%;
+	height: 600px;
+	margin-left: 18%;
+	position: relative;
+	background-color: transparent;
+	
+	
+}
+.mundo{
+	width: 120%;
+	height: 130%;
+	
+}
+#texto_mundo{
+	color:#0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "arial";
+	line-height: 29px;
+	text-align: justify;
+	
+
+}
+
+
+#texto_sesiones{
+	font-size: 36px;
+	font-weight: bold;
+	font-family: "arial";
+}
+#texto_añadir{
+	font-size: 19px;
+	font-family: "arial";
+}
+#agregar_cuenta{
+	background-color: white;
+	width: 160px;
+	height: 200px;
+	margin-top: 15px;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: "arial";
+	color:#365899;
+	text-align: center;
+	cursor: pointer;
+}
+#nombre_cuenta{
+	background-color: #F5F6F7;
+	height: 78%;
+}
+.texto_cuenta{
+	margin-top: 12px;
+}
+.simbolo_mas{
+	margin-top: 35%;
+}
+#agregar_cuenta_2{
+	background-color: white;
+	width: 160px;
+	height: 200px;
+	margin-top: -200px;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: "arial";
+	color:#365899;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 36%;
+	
+}

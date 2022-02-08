@@ -1,0 +1,56 @@
+#div2{
+	margin-left: 20%;
+	margin-top: -13.5%;
+	position: absolute;
+	
+}
+#tabla_contenido{
+	
+	position: fixed;
+	margin-top: 5%;
+	width: 50%;
+}
+#mostrar_tablaC{
+	position: fixed;
+	margin-top: 5%;
+	width: 30%;
+}
+td{
+	border:black 1px solid;
+	width: auto;
+}
+th{
+	border:black 1px solid;
+	width: 20%;
+}
+#div3{
+	margin-left: 40%;
+	margin-top: -13.5%;
+	position: absolute;
+
+}
+#div3>p{
+	text-indent: 25%;
+
+}
+#div1>p{
+	text-indent: 2%;
+
+
+}
+#tablas{
+
+	width: 25%;
+	height: 30%;
+}
+#imagenes{
+	width: 30%;
+	height: 30%;
+	margin-left: 40%;
+
+}
+#imagen_mostrar{
+	margin-left: 60%;
+	margin-top: -10%;
+}
+

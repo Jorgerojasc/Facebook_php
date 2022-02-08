@@ -1,0 +1,260 @@
+#Publicaciones{  
+	background-color: transparent;
+	position: fixed;
+	margin-top: 45px;
+	width: 74%;
+	height: 90%;
+	overflow-y: scroll;
+	margin-left: 385px;
+	overflow-x: none;
+	z-index: -99999999999999999999999;
+}
+#crear_publicacion{
+	margin-top: 0px;
+	background-color: white;
+	height: 25%;
+	width: 50%; 
+	border-radius: 3px;
+	font-family: "arial";
+	font-size: 12px;
+	font-weight: bold;
+	border-left: 1px solid #DDDFE2;
+	border-right: 1px solid #DDDFE2;
+}
+#cabecera_crear_publicacion{
+	background-color: #F5F6F7;
+	margin-top: 0px;
+	height: 30px;
+	border-top: 1px solid #DDDFE2;
+	border-bottom: 1px solid #DDDFE2;
+	border-left: 1px solid #DDDFE2;
+	border-right: 1px solid #DDDFE2;
+}
+#texto_crear{
+	position: relative;
+	margin-left: 10px;
+	width: auto;
+	margin-top: 10px;
+}
+#prin{
+	width: 250px;
+	margin-top: -68px;
+	margin-left: 13px;
+}
+#foto_user{
+	margin-top: 0px;
+	border-radius: 100px;
+	width: 40px;
+	height: 40px;
+}
+#texto_publicacion{
+	margin-top: -30px;
+	margin-left: 50px;
+	width: 200px;
+	font-size: 14px;
+	color: #9094B6;
+}
+#input_publicacion{
+	width: 420px;
+	height: 50px;
+	margin-left: 60px;
+	margin-top: 11px;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+#boton_publicar{
+	background-color: #4267B2;
+	margin-left: 140px;
+	margin-top: 5px;
+	width: 350px;
+	height: 20px;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none; 
+	font-family: "arial";
+	font-weight: bold;
+	color: white;
+	border-radius: 3px;
+	cursor: pointer;
+	visibility: hidden;
+}
+#boton_publicar:hover{
+	background-color: #3B5998;
+}
+/*overflow:hidden sirve para que el tezto en vez de aparecer todo solo aparece una pequeña parte
+text-overflow:ellipsis sirve para esto tambien*/
+
+#r{
+	width: 50%;
+	margin-top: 15px;
+	background-color: green;
+	height: 70%;
+}
+#cab{
+	background-color: red;
+	margin-top: 10px;
+}
+#txta{
+
+}
+#publicacion_dinamica{
+	width: 50%;
+	margin-top: 10px;
+	background-color: white;
+	height: 70%;
+}
+.img_dinamica{
+	border-radius: 100px;
+	width: 35px;
+	height: 35px;
+	background-color: blue;
+	margin-left: 10px;
+
+}
+.nombre_dinamico{
+	font-family: "arial";
+	font-size: 12px;
+	font-weight: bold;
+	color:#385898;
+	width: 50%;
+	margin-left: 10%;
+
+}
+.fecha_dinamica{
+	font-family: "arial";
+	font-size: 12px;
+	font-weight: bold;
+	color:#626B7A;
+	width: 30%;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+.descripcion_dinamica{
+	display: flex;
+ 	-ms-word-break: break-all;
+    word-break: break-all;
+	margin-top: 20px;
+	width: 90%;
+	height: auto;
+	overflow-y: scroll;
+	margin-left: 25px;
+	font-family: "arial";
+}
+.descripcion_dinamica::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+.descripcion_dinamica::-webkit-scrollbar {
+    width: 7px;
+}
+
+.imagen_dinamica{
+	margin-top: -50px;
+	width: 5%;
+}
+.bloque{
+	visibility: hidden;
+}
+.bloque2{
+	border-bottom: 1px solid #DEE0E3;
+	color: transparent; 
+}
+.Likes{
+	margin-top: 37%;
+	border-top: 1px solid #DEE0E3;
+	border-bottom: 1px solid #DEE0E3;
+	height: 35px; 
+
+}
+.principal_l{
+	width: 140px;
+	height: 30px;
+	margin-top: 2px;
+	margin-left: 10%;
+	cursor: pointer;
+}
+.principal_l:hover{
+	background-color: #e6e6e6;
+}
+.imagen_l{
+	margin-left: 10%;
+	width: 25px;
+	height: 25px;
+	margin-top: 3px;
+	color: blue;
+}
+.imagen_ll{
+	margin-left: -17%;
+	width: 25px;
+	height: 25px;
+	margin-top: 3px;
+	color: blue;
+	visibility: hidden;
+}
+.texto_like{
+	width: 100px;
+	font-family: "arial";
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 50px;
+	margin-top: -24px;
+	color: #606770;
+}
+#conectados{
+	background-color: transparent;
+	position: fixed;
+	margin-left: 82%;
+	margin-top: 17%;
+	width: 243px;
+	height: 62%;
+	overflow-y: scroll;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC; 
+}
+#conectados::-webkit-scrollbar-thumb {
+    background-color: #CCCCCC;
+}
+#conectados::-webkit-scrollbar {
+    width: 3px;
+}
+.todo{
+	height: 15%;
+}
+.foto_c{
+	border-radius: 100px;
+	width: 28px;
+	background-color: green;
+	height: 28px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.div_foto{
+	width: 28px;
+	height: 28px;
+}
+.texto_c{
+	font-size: 12px;
+	font-family: "arial";
+	width: 100px;
+	word-break: break-all;
+	display: flex;
+	margin-left: 50px;
+	margin-top: -15px;
+}
+.circulo_c{
+	border-radius: 100px;
+	background-color:#42B72A; 
+	height: 8px;
+	width: 8px;
+	margin-left: 200px;
+	margin-top: -25px;
+}
+#circulo{
+	width: 20px;
+	height: 20px;
+	margin-left: 30px;
+	margin-top: 10px;
+	border-radius: 100px;
+}
